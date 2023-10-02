@@ -1,0 +1,98 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+      
+    color: white;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+.inputs{
+    text-align: center;
+}
+h2
+{
+    font-size: 32px;
+
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.data input
+{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+}
+.data button
+{
+    border: 1px solid white;
+    background-color:#434343;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+.list
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+.box
+{
+    background-color: #434343;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 190px;
+    text-align: center;
+}
+.item
+{
+    background-color: #777777;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: move;
+    transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    -ms-transition: all 0.9s;
+    -o-transition: all 0.9s;
+}
